@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+.noIteam {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iteamText {
+    box-shadow: 1px 1px 5px black;
+    padding: 30px;
+    text-shadow: 1px 1px 7px black;
+    color: rgb(219, 214, 214);
+}
+
+.allCartProducts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.cartPrice {
+    position: absolute;
+    right: 570px;
+    top: 90px;
+    font-size: 40px;
+    font-family: serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: rgb(138, 133, 133);
+}
+
+.deleteAll {
+    position: absolute;
+    top: 87px;
+    right: 100px;
+}

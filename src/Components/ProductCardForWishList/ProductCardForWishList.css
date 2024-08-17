@@ -1,0 +1,38 @@
+.wishList{
+    box-shadow: 0px 0px 5px rgb(97, 97, 97);
+    height: 300px;
+    width: 300px;
+    margin: 39px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.wishImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.wishtitl{
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.wishPrice{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.moveToCart{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.wishDel{
+    position: relative;
+    left: 140px;
+    bottom: 30.5px;
+}

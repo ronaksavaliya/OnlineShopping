@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+.features{
+    color: rgb(209, 204, 204);
+    text-align: center;
+    font-size: 70px;
+    font-family: serif;
+    text-shadow: 1px 1px 3px rgb(77, 10, 10);
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+li{
+    font-size: 25px;
+    margin: 60px;
+    font-weight: 400;
+    box-shadow: 1px 1px 1px rgb(134, 132, 132);
+    padding: 10px;
+}

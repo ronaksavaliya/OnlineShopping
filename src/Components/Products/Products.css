@@ -1,0 +1,19 @@
+body {
+    /* background-color: rgb(235, 229, 229); */
+    background-color: #D2D0D0;
+}
+
+.productView {
+    display: inline-block;
+    position: relative;
+    top: 46px;
+    left: 10px;
+    /* color:rgb(255, 60, 60); */
+}
+
+.priceRange {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 900px;
+}
