@@ -1,12 +1,11 @@
 .listContainer{
     display: flex;
     margin-top: 50px;
-    margin-left: 20vw;
     background-color:white;
     width: 60vw;
     height: 250px;
     align-items: center;
-    box-shadow: inset 0px 0px 10px rgb(134, 134, 134);
+    border-radius: 8px;
 }
 
 .listTitle{

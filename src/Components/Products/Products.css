@@ -5,15 +5,15 @@ body {
 
 .productView {
     display: inline-block;
-    position: relative;
-    top: 46px;
-    left: 10px;
+    /*position: relative;*/
+    /*top: 46px;*/
+    /*left: 10px;*/
     /* color:rgb(255, 60, 60); */
 }
 
 .priceRange {
     display: inline-block;
-    position: relative;
-    top: 15px;
-    left: 900px;
+    /*position: relative;*/
+    /*top: 15px;*/
+    /*left: 900px;*/
 }

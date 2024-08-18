@@ -34,7 +34,7 @@ export default function Sorting({productsSort}) {
   return (
     <>
       <div>
-        <FormControl sx={{ m: 1, minWidth: 80 }}>
+        <FormControl sx={{ m: 0, minWidth: 80 }}>
           <InputLabel id="demo-simple-select-autowidth-label" sx={{position:'relative', top:'16px'}}>Sort</InputLabel>
           <Select
             labelId="demo-simple-select-autowidth-label"

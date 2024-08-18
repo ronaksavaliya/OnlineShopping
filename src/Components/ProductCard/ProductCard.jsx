@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./ProductCard.css";
 import ReduxAddToCart from "../AddToCart/ReduxAddToCart";
-import { Button,Rating } from "@mui/material";
+import { Button, Rating } from "@mui/material";
 import { useState } from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -14,7 +14,6 @@ import { addProduct } from "../../Store/actions/ForProductDetails";
 import { NavLink } from "react-router-dom";
 import SliderImg from "./SliderImg";
 import AddToWishList from "../AddToWishList/AddToWishList";
-
 
 // export default function ProductCard({product}) {
 //   return (
@@ -63,7 +62,7 @@ export default function ProductCard({
   }
 
   return (
-    <Card sx={{ height: 500, width: 350, margin: "14px" }}>
+    <Card sx={{ height: 500, width: 350, margin: "14px", borderRadius: '8px' }}>
       <CardContent>
         <div
           className="slider"
@@ -127,7 +126,7 @@ export default function ProductCard({
         {displayRemove && <RemoveProductFromcart product={product} />}
 
         <div>
-          <AddToWishList product={product}/>
+          <AddToWishList product={product} />
         </div>
       </CardActions>
     </Card>

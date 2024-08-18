@@ -105,31 +105,22 @@ function Products() {
   } else {
     return (
       <>
-        <div style={{marginBottom:'50px'}}>
-          <div className="productView">
-            <ProductView changeView={changeView} />
+        <div style={{marginBottom:'50px', display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <div style={{ display: "flex", justifyContent: "space-around", alignItems: "flex-end", width: "100%" }}>
+            <div className="productView">
+              <ProductView changeView={changeView}/>
+            </div>
+              <Sorting productsSort={productsSort}/>
+            <div className="priceRange">
+              <PriceRange
+                products={data}
+                setProductsBwRange={setProductsBwRange}
+              />
+            </div>
           </div>
-          <div
-            style={{
-              marginLeft: "15px",
-              display: "inline-block",
-              width: "200px",
-            }}
-          >
-            <Sorting productsSort={productsSort} />
-          </div>
-          <div className="priceRange">
-            <PriceRange
-              products={data}
-              setProductsBwRange={setProductsBwRange}
-            />
-          </div>
-
-          <div>
-            {view.grid && <GridView products={productsBwRange} />}
-            {view.list && <ListView products={productsBwRange} />}
-          </div>
-        </div>{" "}
+          {view.grid && <GridView products={productsBwRange}/>}
+          {view.list && <ListView products={productsBwRange}/>}
+        </div>
       </>
     );
   }
