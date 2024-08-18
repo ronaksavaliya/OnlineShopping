@@ -1,23 +1,24 @@
-.attraction{
-   display: flex;
-   color:rgb(133, 115, 115);
-   margin-left: 50px;
-   margin-bottom: 50px;
+.attraction {
+  display: flex;
+  color: rgb(133, 115, 115);
+  margin-left: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
 }
 
-.attraction div{
-    font-size: 30px;
-    font-family: serif;
+.attraction div {
+  font-size: 30px;
+  font-family: serif;
 }
 
-.attractionText{
-    box-shadow: 3px 3px rgb(196, 195, 196);
-    /* background-color:aqua; */
-    margin-right: 50px;
-    margin-top: 300px;
-    width: 350px;
+.attractionText {
+  box-shadow: 3px 3px rgb(196, 195, 196);
+  /* background-color:aqua; */
+  margin-right: 50px;
+  margin-top: 300px;
+  width: 350px;
 }
 
-.attractionImg{
-    display:flex;
+.attractionImg {
+  display: flex;
 }

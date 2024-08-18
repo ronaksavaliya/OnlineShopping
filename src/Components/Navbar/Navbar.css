@@ -37,13 +37,3 @@
 .navText:hover {
     color: rgb(114, 114, 224);
 }
-
-.cartBtn {
-    position: relative;
-    left: 730px;
-}
-
-.wishListBtn {
-    position: relative;
-    left: 700px;
-}

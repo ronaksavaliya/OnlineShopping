@@ -15,7 +15,7 @@ export default function CartButton() {
       <NavLink
         to="/cart"
         activeClassName="active"
-        style={{ color: "#898686", textDecoration: "none" }}
+        style={{ color: "#898686", textDecoration: "none", marginLeft: "8px" }}
       >
         <IconButton aria-label="cart" >
           <Badge badgeContent={total} color="secondary" max={99}>

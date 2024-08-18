@@ -14,7 +14,7 @@ export default function Home() {
           src="https://plus.unsplash.com/premium_photo-1672883552113-e67e0d6884af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2hvcHBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           alt=""
           height={500}
-    
+
         />
         <img className="img2"
           src="https://plus.unsplash.com/premium_photo-1661764072587-0050cc57ac17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvcHBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
       </div>
       </div>
-       
+
         <Services/>
         <Attraction/>
     </>
